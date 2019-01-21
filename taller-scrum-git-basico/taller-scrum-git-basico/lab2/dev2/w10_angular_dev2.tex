@@ -1,0 +1,138 @@
+% Author: Adolfo Centeno 
+% Kubeet Corp
+% www.kubeet.com
+
+ 
+\documentclass{beamer}
+\setbeamertemplate{navigation symbols}{}
+\usepackage[utf8]{inputenc}
+\usepackage{beamerthemeshadow}
+\usepackage{listings}
+
+\begin{document}
+\title{Integration testing - Developer 2 - Todos Component}  
+\author{Adolfo Centeno}
+\date{\today} 
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Table of contents}\tableofcontents
+\end{frame} 
+
+
+\section{install Angular - Integration Testing} 
+
+\begin{frame}\frametitle{} 
+
+
+\begin{block}{open new terminal, install Angular}
+sudo npm install -g @angular/cli
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{fork repo}
+\url{https://github.com/your-lider/angular-integration-testing.git} \\
+click in fork
+\end{block}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{forking.png}
+\end{center}
+
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{clone your repo}
+mkdir dev-integration-testing \\
+cd dev-integration-testing	 \\
+git clone -b develop https://github.com/your-own-repo/angular-integration-testing.git \\
+cd angular-integration-testing \\
+npm install \\
+ng test   
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{todos branch}
+git branch \\
+git branch todos \\
+git checkout todos \\
+git merge develop todos \\
+git branch 
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{create todos component}
+ng generate component todos \\
+cd src/app/todos \\
+\end{block}
+
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{} 
+
+update the component files
+
+\begin{enumerate}
+\item create todo.service.ts
+\item update html and css files
+\item update todos.component.ts 
+\item create unit tests :        todos.component.unit.spec.ts
+\item update integration test :  todos.component.spec.ts
+\end{enumerate}
+
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+
+\begin{block}{push todos branch}
+cd .. \\
+cd .. \\
+pwd  \\
+git add src/app/todos \\
+git commit -m "todos feature" \\
+git push -u origin todos \\
+\end{block}
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{Go to github}
+\url{https://github.com/} \\
+
+create a pull-request to develop branch in lider repo
+\end{block}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{pull-request.png}
+\end{center}
+
+
+\end{frame}
+
+
+\end{document}

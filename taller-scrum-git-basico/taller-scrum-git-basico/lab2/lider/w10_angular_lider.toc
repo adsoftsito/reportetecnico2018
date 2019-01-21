@@ -1,0 +1,2 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{install Angular - Testing Intro}{3}{0}{1}

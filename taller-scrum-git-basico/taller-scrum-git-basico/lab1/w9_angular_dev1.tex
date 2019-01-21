@@ -1,0 +1,157 @@
+% Author: Adolfo Centeno 
+% Kubeet Corp
+% www.kubeet.com
+
+ 
+\documentclass{beamer}
+\setbeamertemplate{navigation symbols}{}
+\usepackage[utf8]{inputenc}
+\usepackage{beamerthemeshadow}
+\usepackage{listings}
+
+\begin{document}
+\title{Angular - Unit testing - Developer 1}  
+\author{Adolfo Centeno}
+\date{\today} 
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Table of contents}\tableofcontents
+\end{frame} 
+
+
+\section{install Angular - Testing Intro} 
+
+
+\defverbatim[colored]\lstspec{
+ \begin{lstlisting}[language=bash,showstringspaces=false, basicstyle={\tiny}, keywordstyle=\color{red}]
+import { greet} from './greet';
+
+describe ('greet', () => {  // greet suit
+
+    it ('should include the name in the message ', () => {
+        expect(greet('adsoft')).toContain('adsoft');
+    } )
+
+})
+ \end{lstlisting}
+}
+
+
+\defverbatim[colored]\lstts{
+ \begin{lstlisting}[language=bash,showstringspaces=false, basicstyle={\tiny}, keywordstyle=\color{red}]
+
+export function greet(name) { 
+  return 'Welcome ' + name; 
+}
+
+ \end{lstlisting}
+}
+
+
+\begin{frame}\frametitle{} 
+
+
+\begin{block}{open new terminal, install Angular}
+sudo npm install -g @angular/cli
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{fork repo}
+\url{https://github.com/your-lider/angular-testing.git} \\
+click in fork
+\end{block}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{forking.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{clone your repo}
+mkdir dev-testing \\
+cd dev-testing	 \\
+git clone -b develop https://github.com/your-own-repo/angular-testing.git \\
+cd angular-testing \\
+npm install \\
+ng test   
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{greet branch}
+git branch \\
+git branch greet \\
+git checkout greet \\
+git merge develop greet \\
+git branch 
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{create greet}
+cd src/app \\
+mkdir greet \\
+cd greet
+\end{block}
+
+\begin{block}{nano greet.spec.ts}
+\lstspec
+\end{block}
+
+\begin{block}{nano greet.ts}
+\lstts
+\end{block}
+
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{} 
+
+
+\begin{block}{push greet}
+cd .. \\
+cd .. \\
+pwd  \\
+git add src/app/greet \\
+git commit -m "greet feature" \\
+git push -u origin greet \\
+\end{block}
+
+
+\end{frame}
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{Go to github}
+\url{https://github.com/} \\
+
+create a pull-request to develop branch in lider repo
+\end{block}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{pull-request.png}
+\end{center}
+
+
+\end{frame}
+
+
+\end{document}

@@ -1,0 +1,304 @@
+1	Anexo de la planificación de la ejecución del proyecto, con la información de fechas de entrega de cada entregable, y porcentaje de avances del equipo de trabajo.
+
+La documentación del proyecto FitoSmart: Plataforma tecnológica de fitomonitorización de cultivo hidropónico utilizando 
+Cómputo Sensible al Contexto y técnicas de Inteligencia Artificial de KUBEET S. DE R.L. DE C.V., incluye:
+Documentos Rectores: Misión, Visión, Compromiso y Objetivos de Calidad, Manual de Calidad que muestra la manera de como la organización ha establecido e implementado en su proceso general.
+Documentación requerida por la organización, toda aquella indispensable para la eficaz planificación, operación y control de los procesos del proyecto FitoSmart, como pueden ser: planes de procesos, documentación que precisa las actividades, procedimientos, directrices y métodos que definen los procesos del sistema y su interacción.
+Formatos, Instructivos y Registros, documentación mediante la cual se hace evidente la implementación del proyecto FitoSmart y el desarrollo de las actividades y sus resultados en los procesos que conforman su alcance, dando cumplimiento a los requisitos establecidos.
+Manual de gestión de la calidad, plan de comunicacion y planes de riesgo.
+
+Ver detalles en anexos:
+
+Plan_de_Calidad/Tecnico-252233-46.pdf
+Plan_de_Comunicacion/Tecnico-252233-47.pdf
+Plan_de_Riesgo/Tecnico-252233-48.pdf
+
+
+2	Conjunto de documentos que evidencia el esquema de la capacitación en hidroponía para la implementación del invernadero.
+
+El equipo de trabajo recibio capacitación especializada en tecnicas de cultivo hidroponico para mejorar sus habilidades
+en la implementación del invernadero y conocimientos generales para la correcta ejecución del proyecto.
+
+Ver detalles en anexos:
+
+Diplomas_Toc_2018_001/Tecnico-252233-23.pdf
+Diplomas_Toc_2018_002/Tecnico-252233-24.pdf
+Diplomas_Toc_2018_003/Tecnico-252233-25.pdf
+Diplomas_Toc_2018_004/Tecnico-252233-26.pdf
+Lista_Asistencias_Toc_2018_001/Tecnico-252233-27.pdf
+Lista_Asistencias_Toc_2018_002/Tecnico-252233-28.pdf
+Lista_Asistencias_Toc_2018_003/Tecnico-252233-29.pdf
+01_Minutas_Toc_2018/Tecnico-252233-30.pdf
+02_Minutas_Toc_2018/Tecnico-252233-31.pdf
+03_Minutas_Toc_2018/Tecnico-252233-32.pdf
+
+
+3	Adaptación del Prototipo del Módulo de Aprendizaje del CBR con las mejoras planteadas para la emisión de soluciones exitosas de los valores del ambiente favorable previamente probados en el fitotrón para el correcto desarrollo de cada uno de los tipos de la planta.
+
+En esta seccion de reporta los detalles de implementación de un razonador basado en casos para el proyecto FitoSmart, incluyendo el mecanismo 
+de recuperación de casos, métricas de similitud, mecanismo de adaptación, estructura del código fuente, estructura 
+e interfaces de usuario
+Las variables para la configuracion de caso que se consideraron son: EDAD, SOL. NUTRITIVA, NITROGENO, FOSFORO, POTASIO, CALCIO, MAGNESIO, HIERRO,  ZINC, BOR0, MOLIBDENO, COBRE, AZUFRE, LUMINOSIDAD, TEMPERATURA AMBIENTAL, TEMPERATURA DE AGUA, LAT, LNG, ALTITUD, CONDUCTIVIDAD ELECTRICA, ANALISIS FOLIAR Y PH 
+
+Para mayor detalle ver:
+
+AN_E2_01_Vision_y_alcance_del_modulo_de_aprendizaje_CBR/Tecnico-252233-1.pdf
+AN_E2_02_Requerimientos_del_modulo_de_aprendizaje_CBR/Tecnico-252233-2.pdf
+AN_E2_03_Analisis_y_diseno_del_modulo_de_aprendizaje_CBR/Tecnico-252233-3.pdf
+AN_E2_04_Casos_de_uso_del_modulo_de_aprendizaje_CBR/Tecnico-252233-4.pdf
+AN_E2_05_Pruebas_del_modulo_de_aprendizaje_CBR/Tecnico-252233-5.pdf
+
+
+4	Documento tipo Reporte Técnico que describa las mejoras implementadas en las fases de revisar y retener, así como las nuevas variables consideradas en el caso para el Módulo de Aprendizaje del CBR.
+
+La etapa de recuperación de casos del CBR en Fitosmart en términos generales, la recuperación es realizada usando el
+algoritmo de búsqueda KNN (k nearest neighbour), donde   la consulta enviada es comparada con cada caso en la base de
+casos para derivar una similitud con cada caso. Dado que en este experimento la base de cases es relativamente pequeña
+ (1250 casos),  el uso de este método de búsqueda de fuerza bruta da como resultado una ejecución de consultas de menos 
+de un segundo.
+
+RT_E3_01_Reporte_tecnico_del_modulo_de_aprendizaje_CBR/Tecnico-252233-6.pdf
+
+
+5	Proceso del desarrollo del prototipo del Módulo de Sistema de Plan de Cultivo encargado de recomendar los parámetros adecuados a implementar en el invernadero.
+
+Desarrollo de un Módulo de Sistema de Plan de Cultivo, capaz de brindar recomendaciones 
+de las mejores condiciones para el cultivo de frutos, vegetales o plantas; el modulo deberá ser capaz de
+ generar estas recomendaciones en base a la memoria de casos existente, esta funcionalidad es posible a través de la
+ implementación de Inteligencia artificial que permite el aprendizaje, razonamiento y toma de decisiones.
+Características principales
+ - Generación de recomendaciones con la implementación de Inteligencia Artificial 
+ - Modulo desarrollado como componente capaz de sufrir adaptaciones o modificaciones 
+ - Modulo capaz de ofrecer soluciones o recomendaciones en tiempo de respuesta rápido
+ - Tolerancia a fallos 
+ - Capacidad de comunicarse con otros componentes de software
+
+Ver detalles del proceso de ingenieria en:
+
+AN_E4_01_Vision_y_alcance_del_Modulo_de_Sistema_de_Plan_de_Cultivo/Tecnico-252233-7.pdf
+AN_E4_02_Requerimientos_del_Modulo_de_Sistema_de_Plan_de_Cultivo/Tecnico-252233-8.pdf
+AN_E4_03_Analisis_y_diseno_del_Modulo_de_Sistema_de_Plan_de_Cultivo/Tecnico-252233-9.pdf
+AN_E4_04_Casos_de_uso_del_Modulo_de_sistema_de_plan_de_cultivo/Tecnico-252233-10.pdf
+
+
+6	Documento tipo Reporte Técnico del protocolo utilizado para realizar las pruebas en el Fitotrón.
+
+Se definieron formatos genérico para la documentación de pruebas funcionales, se cuenta con un archivo que facilita el registro de ellas,
+las cuales están enfocadas a los flujos básicos y alternativos de cada Caso de Uso descritos en el documento de ingeniería de software del desarrollo actual.
+Los apartados contemplados se listan a continuación, de acuerdo a los casos de uso creados y a la siguiente nomenclatura: 
+
+- Número de caso de prueba: número que identifica al caso de prueba realizado. 
+- Caso de uso: representa el caso de uso al cual se le realizan las pruebas. 
+- Módulos involucrados: módulos que representan el caso de uso. 
+- Flujo: describe el paso del flujo básico o alternativo del caso de uso a probar.  
+- Condiciones de ejecución: describe las condiciones que se tienen que dar para ejecutar la prueba (precondiciones). 
+- Datos de entrada: describe los datos de entrada que necesita el caso de prueba para que se ejecute una acción. 
+- Acción a probar: describe de forma detallada lo que se probará para el caso de prueba. 
+- Resultados esperados: se refiere al resultado que se espera tras realizar la prueba
+
+AN_E4_05_Pruebas_del_Modulo_de_Sistema_de_Plan_de_Cultivo/Tecnico-252233-11.pdf
+
+
+7	Documento tipo Reporte Técnico que describa la infraestructura y dispositivos utilizados para la implementación del Invernadero Hidropónico semiautomatizado.
+
+Se reportan los avance al desarrollar el Invernadero Hidropónico semiautomatizado,  en este se encuentra la descripción de la infraestructura,
+los materiales y dispositivos utilizados para la implementación del Invernadero. También se muestra un registro de fotografías que explican el alcance
+que se tiene hasta el momento.
+Para la construcción del Invernadero Hidropónico Semiautomatizado, se diseña en primera instancia un modelo en 3D usando Solid Works. 
+Este abarca el concepto ideal de lo que se espera sea el Invernadero físicamente, tomando en cuenta la estructura, los dispositivos de monitoreo
+ y otros materiales que se usan.
+
+Ver detalles en anexo:
+
+RT_E7_01_Reportetecnico_implementacion_InvHidroponico/Tecnico-252233-12.pdf
+
+
+8	Modelado 3D del Invernadero Hidropónico Semiautomatizado que muestre la infraestructura y dispositivos incorporados.
+
+En esta etapa se describie de manera textual y gráfica los requerimientos del invernadero hidropónico, así como las características que este 
+debe cumplir para ser apropiado en el desarrollo del cultivo asignado. También se mencionarán los módulos que ya han sido descritos en otros documentos,
+en este caso para visualizar su interacción con el ambiente controlado dentro del invernadero hidropónico.
+Los módulos son: Módulo Monitoreo Ambiente, Módulo control Nivel y Módulo Monitoreo Nutriente, encargados de monitorear las variables del contexto,
+las cuales son: Temperatura ambiental, humedad relativa, iluminación, presión atmosférica, altitud, temperatura del nutriente, pH, conductividad eléctrica,
+bióxido de carbono. Además de esto, también cuentan con actuadores que ayudarán a controlar elementos indispensables del fitotrón, como por ejemplo, 
+las bombas, con las cuales se logra el flujo del nutriente por los vectores de cultivo; disponiendo también de controles On/Off para dispositivos de 127Vac,
+a los cuales se les podrían asignar elementos como luminarias, ayudando a tener un mejor ambiente dentro del invernadero.
+
+Ver detalles en:
+AN_R7_Estructura_fisica_invernadero_modelado_3D/Tecnico-252233-13.pdf
+AN_R7_VyA_Modelado_3D/Tecnico-252233-14.pdf
+
+
+9	Memoria técnica de las pruebas de producción de un cultivo en específico realizadas en el Invernadero Hidropónico Semiautomatizado.
+
+En este modulo se describe el desarrollo de un prototipo funcional que permitió validar la tecnología desarrollada durante la ejecución de la tercera etapa
+del proyecto.
+Para lograr dicho proyecto se realizaron pruebas en un invernadero hidropónico base que era capaz de cultivar 20 plantas como máximo, dichas pruebas dejaron datos
+e información importante que posteriormente serán usadas para la crear un prototipo funcional a mayor escala y por lo cual se deben conocer las necesidades
+que este requiere.
+
+El Fitotrón sigue siendo un elemento de cultivo hidropónico (cultivo sin suelo) y presentaron las siguientes ventajas:
+•	Se optimizan todos los insumos de la producción: agua, fertilizantes, energía, etc.
+•	Se obtienen productos química y biológicamente inocuos, debido a que casi no se usan agroquímicos, pues los cultivos no están expuestos a problemas fitopatológicos relacionados con patógenos del suelo (nematodos, hongos y bacterias).
+•	Se reducen los costos por el ahorro en mano de obra y control de plagas.
+•	Aprovechamiento de suelos o terrenos no adecuados para la agricultura tradicional.
+•	Alto rendimiento por superficie – año, es decir, hay producción continua en el mismo lugar y con ahorro de espacio.
+•	Garantía de sustentabilidad alimentaria por medio de la disminución en el tiempo del ciclo de cultivo y por consecuencia el incremento de número de cosechas por año.
+•	Permite tener un mayor control de calidad en el producto final
+
+Ver detalles en :
+
+AN_R8_Elaboracion_de_bosquejos_previos/Tecnico-252233-15.pdf
+AN_R8_Memoria_tecnica_de_pruebas_de_produccion/Tecnico-252233-16.pdf
+
+
+10	Proceso del desarrollo del prototipo del Software para el Dispositivo de Control que permita manipular dispositivos implementados en el Invernadero Hidropónico Semiautomatizado con el propósito de regular parámetros del ambiente y/o solución de la planta.
+
+Se desarrollo el prototipo del Software para el Dispositivo de Control que permite manipular dispositivos, 
+así como monitorear variables de ambiente y permita resolver la problemática sobre la obtención de información y así conocer el
+ comportamiento de las plantas en los  sistemas hidropónicos, esto de acuerdo a las variables de ambiente obtenidas mediante los sensores ubicados en cada Fitotrón.
+Por lo tanto, la difusión en tiempo real del comportamiento de los cultivos hidropónicos esrealizada mediante sensores y una cámara posicionada en
+ una zona estratégica en el sistema hidropónico, con el objetivo de monitorizar y proveer comunicación con el usuario y poder tomar decisiones.
+Asimismo, el software de aplicación esta desarrollado sobre una arquitectura web, esto considerando que es necesario que distintos usuarios establezcan
+conexión con la misma desde cualquier dispositivo que tenga acceso a internet.
+
+La intención de desarrollar una aplicación de control que visualice la monitorización de variables del ambiente (temperatura, humedad, flujo
+ luminoso y concentración de CO2) y de la solución del cultivo (oxígeno, pH, concentración iónica), es para que el usuario conozca el ambiente favorable 
+de cada tipo de planta y  pueda manipulas los dispositivos a su criterio, tomando en cuenta que este conjunto de variables serán utilizadas en el 
+Módulo de Razonamiento Basado en Casos (CBR) para almacenar casos de éxito y fracaso y así poder tomar decisiones a lo largo de cultivo de la planta.
+
+Ver detalles :
+
+AN_E10_02_Vision_alcance_software_de_control/Tecnico-252233-17.pdf
+AN_E10_03_Requerimientos_del_software_de_control/Tecnico-252233-18.pdf
+AN_E10_04_Analisis_y_diseno_del_software_de_control/Tecnico-252233-19.pdf
+AN_E10_05_Casos_de_uso_del_software_de_control/Tecnico-252233-20.pdf
+AN_E10_06_Pruebas_del_software_de_control/Tecnico-252233-21.pdf
+RT_E10_01_Reporte_tecnico_del_modulo_del_software_de_control/Tecnico-252233-22.pdf
+
+
+11	Anexo que describa el Plan de Protección Intelectual utilizado para los resultados del proyecto FitoSmart.
+
+Se creo un plan de propiedad intelectual del proyecto: “FitoSmart” que contemplara los siguientes aspectos:  
+
+- Alcanzar una fortaleza solida de competitividad, correspondiente a la mejora de servicios y productos   
+- Promover el desarrollo científico y tecnológico, traducido en productos y servicios de calidad y vanguardia  
+- Adquirir la fortaleza en el sector de ingeniería de software, promoviendo los sectores en desarrollo y producción 
+para una continuidad dentro del ámbito empresarial conforme al marco legal 
+
+Ver detalles en:
+
+MEMORIA_TECNICA_PI_KUBEET_2018/Tecnico-252233-33.pdf
+
+
+12	Evidencia documental de las solicitudes de trámites realizados para la protección intelectual de los resultados del proyecto.
+
+La estrategia de Protección de Propiedad Intelectual incluye las siguientes actividades:
+ 
+- Instituto Mexicano de la Propiedad Industrial – IMPI • Registro de marca “FitoApp”  
+- Instituto Nacional de los Derechos de Autor – INDAUTOR •
+     Obra literaria: Manual de Usuario_appweb, 
+     Programa de cómputo: Módulo de aprendizaje del CBR, 
+     Programa de cómputo: Módulo de Plan de Cultivo, 
+     Programa de cómputo: Modulo Concentrador y Procesador,
+     Programa de cómputo: Dispositivo de control
+
+Ver solicitudes antes las autoridades en:
+
+KUBEET_MANUAL_AppWEB/Tecnico-252233-34.pdf
+KUBEET_MODULO_CBR/Tecnico-252233-35.pdf
+KUBEET_MODULO_CONCENTRADOR_FITOTRON/Tecnico-252233-36.pdf
+KUBEET_MODULO_PLAN_CULTIVO/Tecnico-252233-37.pdf
+KUBEET_SISTEMA_DISPOSITIVO_CONTROL/Tecnico-252233-38.pdf
+
+
+13	Convenio o comodato que valide la transferencia tecnológica realizada.
+
+Como parte de proyecto se realizo la transferencia teconologica de un modulo de invernadero hidroponico equipado con un fitotron a la Universidad
+Tecnologica del Centro de Veracruz.
+
+Se detallan los convenios con la instituación y comodato en:
+
+01_Convenio_utcv/Tecnico-252233-39.pdf
+02_Comodato_Utcv/Tecnico-252233-40.pdf
+
+
+14	Memoria Fotográfica de la evidencia de la Transferencia tecnológica.
+
+ Se llevó a cabo correctamente la trasferencia tecnológica del procesos de ingeniería para la construcción del Módulo de  Razonamiento Basado en Casos (CBR), 
+así como de los elementos inherentes de acuerdo a lo planteado en el proyecto FitoSmart, correspondientes a los resultados: 
+Entregable 2. Adaptación del Prototipo del Módulo de Aprendizaje del CBR con las mejoras planteadas para la emisión de soluciones exitosas de los valores 
+del ambiente favorable previamente probados en el Fitotrón para el correcto desarrollo de cada uno de los tipos de la planta.
+ El cual integre el Sub-módulo de Adquisición de Imágenes (MAI, captura imágenes de la planta) y el Sub-módulo de Adquisición de Variables
+(MAV, obtiene las variables del ambiente), contemplando las mejoras propuestas para la monitorización de las variables de Concentración de Oxigeno y CO2 y
+ el Entregable 13: Prototipo de una aplicación Web que se encargue de alojar, almacenar, distribuir e intercambiar la información de los procesos que se 
+realizan en el Módulo de Procesamiento de Imágenes y en el Módulo de Aprendizaje del CBR a la Universidad Tecnológica del Centro de Veracruz (UTCV)
+ en la ciudad de Cuitlahuac, Veracruz durante el mes de noviembre de 2018, por la empresa KUBEET S. DE. R.L. DE C.V., misma que dirigió el 
+desarrollo de dicho proyecto, con el apoyo de Concejo Nacional de Ciencia y Tecnología (CONACYT). 
+
+Ver detalles en:
+
+MT_Transferencia_Tecnologica/Tecnico-252233-41.pdf
+
+
+15	Documentación probatoria que valide la participación como exponente de los resultados del proyecto en congresos, talleres y/o seminarios.
+
+Se realizo la difusión de los resultados del proyecto FitoSmart, se integró un plan de acción y en colaboración con Instituciones de Educación Superior
+y Secretarias de Gobierno; se realizaron presentaciones en eventos organizados por las instituciones mencionadas, teniendo actividades en stands, 
+expositores y para éstos últimos se diseñaron trípticos, videos y mamparas con los datos del proyecto PEI. 
+
+Ver detalles en:
+
+Difusion_de_proyecto_FitoSmart/Tecnico-252233-42.pdf
+
+
+16	Elaboración de un artículo para congreso nacional o internacional que describa los principales hallazgos técnicos y científicos del proyecto.
+
+Se redacto un articulo para un congreso nacional en la categoria de Articulo de investigacion cientifica, donde se reportaron los avances del proyecto
+Fitosmart en la 3ra. etapa, principalmente los hallazgos en el modulo CBR, con el siguiente titulo:
+"252233 - PLATAFORMA TECNOLOGICA DE FITOMONITORIZACION DE CULTIVO HIDROPONICO UTILIZANDO TECNICAS DE INTELIGENCIA ARTIFICIAL, ETAPA 3"
+
+Ver detalles en:
+Articulo_Investigacion_FitoSmart/Tecnico-252233-43.pdf
+
+17	Evidencia de la participación como constancias y/o diplomas que acrediten la divulgación del artículo.
+
+En este apartado se muestra la participación relacionada al artículo de divulgación científica del proyecto, en el congreso
+realizado en la Universidad del valle de Orizaba. 
+
+Ver detalles en:
+
+MemoriaTecnicaDifusionArticulo/Tecnico-252233-49.pdf
+PresentacionArticuloDivulgacion/Tecnico-252233-50.pdf
+
+
+18	Plan de Negocios que presente las acciones a seguir para posicionar en el mercado a la Plataforma FitoSmart, mediante la determinación de estrategias de ventas, identificación de clientes y canales de distribución.
+
+Se desarrollo un plan de negocio para la plataforma FitoSmart con le objetivo de posicionar la marca en el mercado, con estrategias de benchmarking,
+plan de ventas, definicion del mercado meta, segmentacion de mercado, principales canales de distribución.
+
+Ver detalles en:
+Plan_negocio/Tecnico-252233-51.pdf
+
+
+19	Reporte Técnico de las Instituciones de Educación Superior que participaron en el proyecto de FitoSmart.
+
+La integración y el entendimiento del personal participante de las IES y su integración con el equipo del trabajo del proyecto fue bueno en todo momento,
+ lo que facilito el desarrollo de las actividades programadas para la ejecución del proyecto, lo que permitió que no se vieran afectados
+ los objetivos y/o actividades planteadas para el proyecto. 
+
+Para mayor informacion ver reporte tecnico de actividades 
+
+01_Reporte_Tecnico_Iuv/Tecnico-252233-52.pdf
+02_Reporte_Tecnico_Utcv/Tecnico-252233-53.pdf
+
+
+20	Informe financiero de la ejecución del proyecto de FitoSamart
+
+El correcto ejercicio de los recursos fue verificado y validado mediante un Dictamen Financiero emitido por
+un Despacho Contable acreditado ante la Secretaria de la Función Pública, en dicho dictamen se manifiesta
+la ausencia de situaciones excepcionales en el ejercicio del presupuesto que pudieran haber ocasionado
+alguna modificación a la aplicación de los recursos de lo estipulado originalmente en el presupuesto. El
+detalle del dictamen financiero puede consultarse en el anexo 
+
+Informe_Financiero/Tecnico-252233-54.pdf

@@ -1,0 +1,138 @@
+% Author: Adolfo Centeno 
+% Kubeet Corp
+% www.kubeet.com
+
+ 
+\documentclass{beamer}
+\setbeamertemplate{navigation symbols}{}
+\usepackage[utf8]{inputenc}
+\usepackage{beamerthemeshadow}
+\usepackage{listings}
+
+\begin{document}
+\title{Integration testing - Developer 1 - Voter Component}  
+\author{Adolfo Centeno}
+\date{\today} 
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Table of contents}\tableofcontents
+\end{frame} 
+
+
+\section{install Angular - Integration Testing} 
+
+\begin{frame}\frametitle{} 
+
+
+\begin{block}{open new terminal, install Angular}
+sudo npm install -g @angular/cli
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{fork repo}
+\url{https://github.com/your-lider/angular-integration-testing.git} \\
+click in fork
+\end{block}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{forking.png}
+\end{center}
+
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{clone your repo}
+mkdir dev-integration-testing \\
+cd dev-integration-testing	 \\
+git clone -b develop https://github.com/your-own-repo/angular-integration-testing.git \\
+cd angular-integration-testing \\
+npm install \\
+ng test   
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{voter branch}
+git branch \\
+git branch voter \\
+git checkout voter \\
+git merge develop voter \\
+git branch 
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{create voter component}
+ng generate component voter \\
+cd src/app/voter \\
+\end{block}
+
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{} 
+
+update the component files
+
+\begin{enumerate}
+\item update html and css files
+\item update voter.component.ts 
+\item create unit tests :        voter.component.unit.spec.ts
+\item update integration test :  voter.component.spec.ts
+\end{enumerate}
+
+
+\end{frame}
+
+\begin{frame}\frametitle{} 
+
+
+\begin{block}{push voter branch}
+cd .. \\
+cd .. \\
+pwd  \\
+git add src/app/voter \\
+git commit -m "voter feature" \\
+git push -u origin voter \\
+\end{block}
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{} 
+
+\begin{block}{Go to github}
+\url{https://github.com/} \\
+
+create a pull-request to develop branch in lider repo
+\end{block}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{pull-request.png}
+\end{center}
+
+
+\end{frame}
+
+
+\end{document}
